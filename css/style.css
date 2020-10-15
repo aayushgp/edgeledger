@@ -122,9 +122,29 @@ img{
 .cases img:hover{
     opacity: 0.7;
 }
+/* blog */
+.blog img{
+    padding: 10px;
+}
 /* team */
 .team img{
-    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+.team .flex-items{
+    justify-content: space-around;
+}
+.team .flex-items h4{
+    font-size: 20px;
+}
+.team .flex-items p{
+    font-size: 16px;
+}
+/* contact */
+.contact img{
+    padding: 10px;
 }
 /* callback form */
 .callback-form{
